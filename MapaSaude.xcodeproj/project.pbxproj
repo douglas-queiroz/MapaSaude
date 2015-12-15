@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0981529A1C1F80440036A83B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 098152991C1F80440036A83B /* main.m */; };
+		0981529D1C1F80440036A83B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981529C1C1F80440036A83B /* AppDelegate.m */; };
+		098152A01C1F80440036A83B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981529F1C1F80440036A83B /* MapViewController.m */; };
+		098152A31C1F80440036A83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098152A11C1F80440036A83B /* Main.storyboard */; };
+		098152A51C1F80440036A83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098152A41C1F80440036A83B /* Assets.xcassets */; };
+		098152A81C1F80440036A83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098152A61C1F80440036A83B /* LaunchScreen.storyboard */; };
+		098152B91C1F840E0036A83B /* SurveyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 098152B81C1F840E0036A83B /* SurveyService.m */; };
+		098152BD1C1F84D10036A83B /* surveys.json in Resources */ = {isa = PBXBuildFile; fileRef = 098152BC1C1F84D10036A83B /* surveys.json */; };
+		098152BF1C1F85E50036A83B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098152BE1C1F85E50036A83B /* MapKit.framework */; };
+		098152C21C1F8EE10036A83B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098152C11C1F8EE10036A83B /* DetailViewController.m */; };
+		098152C71C1F95400036A83B /* CustomPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 098152C61C1F95400036A83B /* CustomPin.m */; };
+		098152C91C1FA5CF0036A83B /* total.json in Resources */ = {isa = PBXBuildFile; fileRef = 098152C81C1FA5CF0036A83B /* total.json */; };
+		84E3C730EE82770069B77C8B /* libPods-MapaSaude.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5496C175DBD9A4F3B9B56736 /* libPods-MapaSaude.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098152951C1F80440036A83B /* MapaSaude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapaSaude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		098152991C1F80440036A83B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0981529B1C1F80440036A83B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MapaSaude/AppDelegate.h; sourceTree = "<group>"; };
+		0981529C1C1F80440036A83B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MapaSaude/AppDelegate.m; sourceTree = "<group>"; };
+		0981529E1C1F80440036A83B /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		0981529F1C1F80440036A83B /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		098152A21C1F80440036A83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		098152A41C1F80440036A83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		098152A71C1F80440036A83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		098152A91C1F80440036A83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098152B71C1F840E0036A83B /* SurveyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyService.h; sourceTree = "<group>"; };
+		098152B81C1F840E0036A83B /* SurveyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyService.m; sourceTree = "<group>"; };
+		098152BC1C1F84D10036A83B /* surveys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = surveys.json; sourceTree = "<group>"; };
+		098152BE1C1F85E50036A83B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		098152C01C1F8EE10036A83B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		098152C11C1F8EE10036A83B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		098152C51C1F95400036A83B /* CustomPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPin.h; sourceTree = "<group>"; };
+		098152C61C1F95400036A83B /* CustomPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPin.m; sourceTree = "<group>"; };
+		098152C81C1FA5CF0036A83B /* total.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = total.json; sourceTree = "<group>"; };
+		103616D90C725979B8A19214 /* Pods-MapaSaude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapaSaude.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapaSaude/Pods-MapaSaude.debug.xcconfig"; sourceTree = "<group>"; };
+		5496C175DBD9A4F3B9B56736 /* libPods-MapaSaude.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapaSaude.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63176F312AEF6D2C2E8CB9B /* Pods-MapaSaude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapaSaude.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapaSaude/Pods-MapaSaude.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		098152921C1F80440036A83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098152BF1C1F85E50036A83B /* MapKit.framework in Frameworks */,
+				84E3C730EE82770069B77C8B /* libPods-MapaSaude.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0981528C1C1F80440036A83B = {
+			isa = PBXGroup;
+			children = (
+				098152BE1C1F85E50036A83B /* MapKit.framework */,
+				0981529B1C1F80440036A83B /* AppDelegate.h */,
+				0981529C1C1F80440036A83B /* AppDelegate.m */,
+				098152BB1C1F849A0036A83B /* Resource */,
+				098152971C1F80440036A83B /* MapaSaude */,
+				098152961C1F80440036A83B /* Products */,
+				2F23F45F16A19BBFB4A27281 /* Pods */,
+				F3DD6E53927AA3BD4F4179FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		098152961C1F80440036A83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				098152951C1F80440036A83B /* MapaSaude.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		098152971C1F80440036A83B /* MapaSaude */ = {
+			isa = PBXGroup;
+			children = (
+				098152B61C1F83EB0036A83B /* Service */,
+				098152C41C1F94E80036A83B /* Views */,
+				098152A11C1F80440036A83B /* Main.storyboard */,
+				098152A41C1F80440036A83B /* Assets.xcassets */,
+				098152A61C1F80440036A83B /* LaunchScreen.storyboard */,
+				098152A91C1F80440036A83B /* Info.plist */,
+				098152981C1F80440036A83B /* Supporting Files */,
+			);
+			path = MapaSaude;
+			sourceTree = "<group>";
+		};
+		098152981C1F80440036A83B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				098152991C1F80440036A83B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		098152B61C1F83EB0036A83B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				098152B71C1F840E0036A83B /* SurveyService.h */,
+				098152B81C1F840E0036A83B /* SurveyService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		098152BB1C1F849A0036A83B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				098152C81C1FA5CF0036A83B /* total.json */,
+				098152BC1C1F84D10036A83B /* surveys.json */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		098152C31C1F94DC0036A83B /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				098152C51C1F95400036A83B /* CustomPin.h */,
+				098152C61C1F95400036A83B /* CustomPin.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		098152C41C1F94E80036A83B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				098152C31C1F94DC0036A83B /* Annotations */,
+				0981529E1C1F80440036A83B /* MapViewController.h */,
+				0981529F1C1F80440036A83B /* MapViewController.m */,
+				098152C01C1F8EE10036A83B /* DetailViewController.h */,
+				098152C11C1F8EE10036A83B /* DetailViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2F23F45F16A19BBFB4A27281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				103616D90C725979B8A19214 /* Pods-MapaSaude.debug.xcconfig */,
+				D63176F312AEF6D2C2E8CB9B /* Pods-MapaSaude.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3DD6E53927AA3BD4F4179FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5496C175DBD9A4F3B9B56736 /* libPods-MapaSaude.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		098152941C1F80440036A83B /* MapaSaude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098152AC1C1F80440036A83B /* Build configuration list for PBXNativeTarget "MapaSaude" */;
+			buildPhases = (
+				85CCA4953D36F5F63FEC5F59 /* Check Pods Manifest.lock */,
+				098152911C1F80440036A83B /* Sources */,
+				098152921C1F80440036A83B /* Frameworks */,
+				098152931C1F80440036A83B /* Resources */,
+				9A2A86B416FD246B31E2E656 /* Embed Pods Frameworks */,
+				9A014FBC61DF79A78E9B0E70 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapaSaude;
+			productName = MapaSaude;
+			productReference = 098152951C1F80440036A83B /* MapaSaude.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0981528D1C1F80440036A83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Douglas Queiroz";
+				TargetAttributes = {
+					098152941C1F80440036A83B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 098152901C1F80440036A83B /* Build configuration list for PBXProject "MapaSaude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0981528C1C1F80440036A83B;
+			productRefGroup = 098152961C1F80440036A83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				098152941C1F80440036A83B /* MapaSaude */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		098152931C1F80440036A83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098152A81C1F80440036A83B /* LaunchScreen.storyboard in Resources */,
+				098152BD1C1F84D10036A83B /* surveys.json in Resources */,
+				098152A51C1F80440036A83B /* Assets.xcassets in Resources */,
+				098152A31C1F80440036A83B /* Main.storyboard in Resources */,
+				098152C91C1FA5CF0036A83B /* total.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85CCA4953D36F5F63FEC5F59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A014FBC61DF79A78E9B0E70 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapaSaude/Pods-MapaSaude-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A2A86B416FD246B31E2E656 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapaSaude/Pods-MapaSaude-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098152911C1F80440036A83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098152A01C1F80440036A83B /* MapViewController.m in Sources */,
+				098152C71C1F95400036A83B /* CustomPin.m in Sources */,
+				0981529D1C1F80440036A83B /* AppDelegate.m in Sources */,
+				0981529A1C1F80440036A83B /* main.m in Sources */,
+				098152B91C1F840E0036A83B /* SurveyService.m in Sources */,
+				098152C21C1F8EE10036A83B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		098152A11C1F80440036A83B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098152A21C1F80440036A83B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		098152A61C1F80440036A83B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098152A71C1F80440036A83B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		098152AA1C1F80440036A83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		098152AB1C1F80440036A83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		098152AD1C1F80440036A83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103616D90C725979B8A19214 /* Pods-MapaSaude.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapaSaude/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.epitrack.MapaSaude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		098152AE1C1F80440036A83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63176F312AEF6D2C2E8CB9B /* Pods-MapaSaude.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapaSaude/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.epitrack.MapaSaude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098152901C1F80440036A83B /* Build configuration list for PBXProject "MapaSaude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098152AA1C1F80440036A83B /* Debug */,
+				098152AB1C1F80440036A83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		098152AC1C1F80440036A83B /* Build configuration list for PBXNativeTarget "MapaSaude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098152AD1C1F80440036A83B /* Debug */,
+				098152AE1C1F80440036A83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0981528D1C1F80440036A83B /* Project object */;
+}
